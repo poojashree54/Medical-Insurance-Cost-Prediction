@@ -15,7 +15,7 @@ with open("dv.pkl", "rb") as f_in:
 # Test route
 @app.get("/ping")
 def ping():
-    return {"message": "✅ API is running successfully!"}
+    return {"message": "API is running successfully!"}
 
 # Prediction route
 @app.post("/predict")
