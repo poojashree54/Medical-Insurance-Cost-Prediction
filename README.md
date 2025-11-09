@@ -178,6 +178,6 @@ docker run -p 8000:8000 insurance-api
 }
 ```
 
-## 🙌 Acknowledgment
+### Acknowledgment
 - Dataset from [Kaggle - Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
 - Inspired by the [DataTalks.Club ML Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)
