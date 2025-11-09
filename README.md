@@ -161,12 +161,12 @@ docker run -p 8000:8000 insurance-api
 
 ```json
 {
-  "age": 35,
-  "sex": "male",
-  "bmi": 27.8,
-  "children": 2,
-  "smoker": "no",
-  "region": "southwest"
+    "age": 35,
+    "sex": "male",
+    "bmi": 27.8,
+    "children": 2,
+    "smoker": "no",
+    "region": "southwest"
 }
 ```
 
@@ -174,22 +174,10 @@ docker run -p 8000:8000 insurance-api
 
 ```json
 {
-  "predicted_charges": 4235.73
+  "predicted_charges": 6218.95
 }
 ```
 
-
-## Project Structure
-
-```
-Medical-Insurance-Cost-Prediction/
-│
-├── train.py                 # Trains and saves the model
-├── predict.py               # FastAPI app for serving predictions
-├── model.pkl                # Trained model
-├── dv.pkl                   # DictVectorizer for preprocessing
-├── requirements.txt         # Dependencies
-├── Dockerfile               # Docker build instructions
-├── notebooks/               # EDA and experiments
-└── README.md                # Project documentation
-```
+## 🙌 Acknowledgment
+- Dataset from [Kaggle - Medical Cost Personal Dataset](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+- Inspired by the [DataTalks.Club ML Zoomcamp](https://github.com/DataTalksClub/machine-learning-zoomcamp)
